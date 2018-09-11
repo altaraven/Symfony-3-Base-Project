@@ -2,6 +2,10 @@
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Composer\Autoload\ClassLoader;
+//use Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver;
+
+//AnnotationDriver::registerAnnotationClasses();
+//AnnotationRegistry::registerLoader();
 
 error_reporting(error_reporting() & ~E_USER_DEPRECATED);
 
